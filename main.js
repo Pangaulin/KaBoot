@@ -51,11 +51,5 @@ rl.question('Please write the kahoot code: ', function(kahootCode) {
 		else {
 			console.log('This method doesn\'t exist, the available methods are 1 or 2.');
 		}
-
-		setTimeout(() => {
-			console.log('Done ! ✅');
-			process.exit(1);
-		},
-		15000);
 	});
 });
